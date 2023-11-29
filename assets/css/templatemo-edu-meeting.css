@@ -207,7 +207,7 @@ header
 */
 
 .sub-header {
-  background-color: #1f272b;
+  background-color: #d72134;
   position: relative;
   z-index: 1111;
 }
@@ -218,23 +218,23 @@ header
   font-size: 13px;
 }
 
-.sub-header .right-icons {
+.sub-header .right-top-navbar {
   text-align: right;
   padding: 8px 0px;
 }
 
-.sub-header .right-icons ul li {
+.sub-header .right-top-navbar ul li {
   display: inline-block;
   margin-left: 15px;
 }
 
-.sub-header .right-icons ul li a {
+.sub-header .right-top-navbar ul li a {
   color: #fff;
   font-size: 14px;
   transition: all .3s;
 }
 
-.sub-header .right-icons ul li a:hover {
+.sub-header .right-top-navbar ul li a:hover {
   color: #f5a425;
 }
 
@@ -1816,7 +1816,7 @@ responsive
     display: none;
   }
 
-  .sub-header .right-icons {
+  .sub-header .right-top-navbar {
     text-align: center;
   }
 
