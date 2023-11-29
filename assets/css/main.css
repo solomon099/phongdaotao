@@ -20,9 +20,7 @@ Table of contents
 font & reset css
 --------------------------------------------- 
 */
-/* @import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900"); */
 @import url("https://fonts.googleapis.com/css?family=K2D:100,200,300,400,500,600,700,800,900");
-/* @import url('https://fonts.googleapis.com/css2?family=K2D&display=swap'); */
 /* 
 ---------------------------------------------
 reset
@@ -74,7 +72,7 @@ header, nav, section, article, aside, footer, hgroup {
 }
 
 html, body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'K2D', sans-serif;
   font-weight: 400;
   background-color: #fff;
   font-size: 16px;
@@ -120,7 +118,7 @@ global styles
 html,
 body {
   background: #fff;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'K2D', sans-serif;
 }
 
 ::selection {
@@ -696,14 +694,15 @@ banner
     display: none !important;
 }
 
-.video-overlay {
+.banner-overlay {
     position: absolute;
-    background-color: rgba(31,39,43,0.75);
+    background-color: rgba(31, 39, 43, 0.5);
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
     width: 100%;
+    
 }
 
 .main-banner .caption {
