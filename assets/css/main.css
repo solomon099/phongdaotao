@@ -214,82 +214,6 @@ main-button
   color: #000000;
   opacity: 0.5;
 }
-/*
----------------------------------------------
-content-2
-linear-gradient(180deg,rgba(27,5,5,0) 69.21%,rgba(9,2,2,.61) 84.74%,rgba(0,0,0,.98)),linear-gradient(0deg,rgba(0,0,0,.5),rgba(0,0,0,.5))
----------------------------------------------
-*/
-
-section.content-2 {
-  background-image: 
-    linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../images/1600x1171.png);
-  background-position: center center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-top: 230px;
-  padding-bottom: 110px;
-}
-
-section.content-2 .content-2-heading {
-  text-align: center;
-}
-
-section.content-2 .content-2-heading h2 {
-  line-height: 40px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  padding-bottom: 20px;
-  border-bottom: 1px solid rgba(250, 250, 250, 0.15);
-  font-size: 45px;
-  font-weight: 700;
-  text-transform: uppercase;
-  color: #fff;
-}
-
-section.content-2 .content-2-1 {
-  background-color: #fff;
-  border-radius: 20px;
-  padding: 40px;
-  margin-right: 45px;
-}
-
-section.content-2 .content-2-1 h4 {
-  font-size: 40px;
-  font-weight: 600;
-  color: #1f272b;
-}
-
-section.content-2 .content-2-1 p {
-  font-size: 20px;
-  font-weight: 100;
-  color: #1f272b;
-  margin: 20px 0;
-}
-
-section.content-2 .content-2-1 a {
-  font-size: 25px;
-  color: #1f272b;
-  font-weight: 500;
-  transition: all 0.3s;
-}
-
-section.content-2 .content-2-1 a:hover {
-  color: #fd0008;
-}
-
-section.content-2 .content-2-1 .main-button {
-  border-top: 1px solid #eee;
-  padding-top: 30px;
-  margin-top: 15px;
-}
-
-section.content-2 .content-2-1 .main-button a {
-  width: 100%;
-  text-align: center;
-}
 
 /*
 ---------------------------------------------
@@ -474,14 +398,156 @@ outstanding
   line-height: 50px;
 }
 
+/*
+---------------------------------------------
+content-2
+linear-gradient(180deg,rgba(27,5,5,0) 69.21%,rgba(9,2,2,.61) 84.74%,rgba(0,0,0,.98)),linear-gradient(0deg,rgba(0,0,0,.5),rgba(0,0,0,.5))
+---------------------------------------------
+*/
+
+section.content-2 {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../images/1600x1171.png);
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 230px;
+  padding-bottom: 110px;
+}
+
+section.content-2 .content-2-heading {
+  text-align: center;
+}
+
+section.content-2 .content-2-heading h2 {
+  line-height: 40px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(250, 250, 250, 0.15);
+  font-size: 45px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+section.content-2 .content-2-1 {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 40px;
+  margin-right: 45px;
+}
+
+section.content-2 .content-2-1 h4 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #1f272b;
+}
+
+section.content-2 .content-2-1 p {
+  font-size: 20px;
+  font-weight: 100;
+  color: #1f272b;
+  margin: 20px 0;
+}
+
+section.content-2 .content-2-1 a {
+  font-size: 25px;
+  color: #1f272b;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+section.content-2 .content-2-1 a:hover {
+  color: #fd0008;
+}
+
+section.content-2 .content-2-1 .main-button {
+  border-top: 1px solid #eee;
+  padding-top: 30px;
+  margin-top: 15px;
+}
+
+section.content-2 .content-2-1 .main-button a {
+  width: 100%;
+  text-align: center;
+}
+
+/*
+---------------------------------------------
+our facts
+---------------------------------------------
+*/
+
+section.question {
+  background-image: url(../images/1600x810.png);
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 140px 0px 125px 0px;
+}
+
+section.question h2 {
+  font-size: 38px;
+  color: #fff;
+  line-height: 50px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
+}
+
+section.question p {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 100;
+}
+
+.question-area-content {
+  text-align: center;
+  background-color: rgba(250, 250, 250, 0.664);
+  border-radius: 20px;
+  padding: 25px 30px 35px 30px;
+  margin: 15px 0px;
+}
+
+.count-title a {
+  font-size: 28px;
+  font-weight: 500;
+  color: #000000;
+  letter-spacing: 0.5px;
+}
+
+.count-title a:hover {
+  color: #ff0606;
+  letter-spacing: 1px;
+}
+
+section.question .video {
+  text-align: center;
+  margin-left: 70px;
+  background-image: url(../images/621x497.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  border-radius: 20px;
+}
+
+section.question .video img {
+  padding: 170px 0px;
+  max-width: 56px;
+}
 
 /*
 ---------------------------------------------
 content-3
 ---------------------------------------------
 */
-
-
 
 section.content-3 {
   background-image: 
@@ -490,10 +556,12 @@ section.content-3 {
       rgba(9, 2, 2, 0.3) 69.21%,
       rgba(9, 2, 2, 0.61) 84.74%,
       rgba(0, 0, 0, 0.98)
-    ), */
-    linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    /* url(../images/1600x1177.png) */
-    ;
+    ), */ linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    /* url(../images/1600x1177.png) */;
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -526,48 +594,30 @@ section.content-3 .content-3-heading p {
   color: #000000;
 }
 
-section.content-3 .content-3-1 {
-  background-color: #fff;
-  border-radius: 20px;
-  padding: 40px;
-  margin-right: 45px;
-}
-
-section.content-3 .content-3-1 h4 {
-  font-size: 35px;
-  font-weight: 600;
-  color: #1f272b;
-  /* margin-bottom: 30px; */
-  /* padding-bottom: 10px; */
-}
-
-section.content-3 .content-3-1 p {
-  font-size: 20px;
-  font-weight: 100;
-  color: #1f272b;
-  margin: 20px 0;
-}
-
-section.content-3 .content-3-1 a {
-  font-size: 25px;
-  color: #1f272b;
-  font-weight: 500;
-  transition: all 0.3s;
-}
-
-section.content-3 .content-3-1 a:hover {
-  color: #fd0008;
-}
-
-section.content-3 .content-3-1 .main-button {
-  border-top: 1px solid #eee;
-  padding-top: 30px;
-  margin-top: 15px;
-}
-
-section.content-3 .content-3-1 .main-button a {
-  width: 100%;
+section.content-3 .filters {
   text-align: center;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+section.content-3 .filters li {
+  font-size: 13px;
+  color: #a12c2f;
+  background-color: #fff;
+  padding: 11px 30px;
+  display: inline-block;
+  border-radius: 22px;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: all 0.3s;
+  cursor: pointer;
+  margin: 0px 3px;
+}
+
+section.content-3 .filters ul li.active,
+section.content-3 .filters ul li:hover {
+  background-color: #a12c2f;
+  color: #fff;
 }
 
 section.content-3 .content-3-description {
@@ -577,7 +627,7 @@ section.content-3 .content-3-description {
   margin-right: 45px;
 }
 
- section.content-3 .content-3-description p {
+section.content-3 .content-3-description p {
   font-size: 18px;
   font-weight: 300;
   color: #1f272b;
@@ -625,31 +675,6 @@ section.content-3 .content-3-description .main-button a {
 }
 
 
-section.content-3 .filters {
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 60px;
-}
-
-section.content-3 .filters li {
-  font-size: 13px;
-  color: #a12c2f;
-  background-color: #fff;
-  padding: 11px 30px;
-  display: inline-block;
-  border-radius: 22px;
-  font-weight: 600;
-  text-transform: uppercase;
-  transition: all 0.3s;
-  cursor: pointer;
-  margin: 0px 3px;
-}
-
-section.content-3 .filters ul li.active,
-section.content-3 .filters ul li:hover {
-  background-color: #a12c2f;
-  color: #fff;
-}
 
 /*
 ---------------------------------------------
@@ -759,8 +784,8 @@ courses
 --------------------------------------------- 
 */
 
-section.our-courses {
-  background-color: #E7DED9;
+section.content-4 {
+  background-color: #e7ded9;
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -769,17 +794,17 @@ section.our-courses {
   padding-bottom: 50px;
 }
 
-section.our-courses .section-heading {
+section.content-4 .section-heading {
   color: #a12c2f;
   /* padding-top: 50px; */
   padding-bottom: 50px;
 }
 
-.our-courses .item .down-content {
+.content-4 .item .down-content {
   background-color: #fff;
 }
 
-.our-courses .item .down-content h4 {
+.content-4 .item .down-content h4 {
   padding: 25px;
   font-size: 18px;
   color: #1f272b;
@@ -787,21 +812,21 @@ section.our-courses .section-heading {
   border-bottom: 1px solid #eee;
 }
 
-.our-courses .item .down-content .info {
+.content-4 .item .down-content .info {
   padding: 25px;
 }
 
-.our-courses .item .down-content .info ul li {
+.content-4 .item .down-content .info ul li {
   display: inline-block;
   margin-right: 1px;
 }
 
-.our-courses .item .down-content .info ul li i {
+.content-4 .item .down-content .info ul li i {
   color: #f5a425;
   font-size: 14px;
 }
 
-.our-courses .item .down-content .info span {
+.content-4 .item .down-content .info span {
   color: #a12c2f;
   font-size: 15px;
   font-weight: 600;
@@ -810,7 +835,7 @@ section.our-courses .section-heading {
   width: 100%;
 }
 
-.our-courses .owl-nav {
+.content-4 .owl-nav {
   text-align: center;
   position: absolute;
   width: 100%;
@@ -818,14 +843,14 @@ section.our-courses .section-heading {
   transform: translateY(-45px);
 }
 
-.our-courses .owl-dots {
+.content-4 .owl-dots {
   display: inline-block;
   text-align: center;
   width: 100%;
   margin-top: 40px;
 }
 
-.our-courses .owl-dots .owl-dot {
+.content-4 .owl-dots .owl-dot {
   transition: all 0.5s;
   width: 7px;
   height: 7px;
@@ -835,25 +860,25 @@ section.our-courses .section-heading {
   outline: none;
 }
 
-.our-courses .owl-dots .active {
+.content-4 .owl-dots .active {
   width: 24px;
   height: 8px;
   border-radius: 4px;
 }
 
-.our-courses .owl-nav .owl-prev {
+.content-4 .owl-nav .owl-prev {
   margin-right: 10px;
   outline: none;
   position: absolute;
   left: -80px;
 }
 
-.our-courses .owl-nav .owl-prev span,
-.our-courses .owl-nav .owl-next span {
+.content-4 .owl-nav .owl-prev span,
+.content-4 .owl-nav .owl-next span {
   opacity: 0;
 }
 
-.our-courses .owl-nav .owl-prev:before {
+.content-4 .owl-nav .owl-prev:before {
   display: inline-block;
   font-family: "FontAwesome";
   color: #1e1e1e;
@@ -867,32 +892,32 @@ section.our-courses .section-heading {
   line-height: 50px;
 }
 
-.our-courses .owl-nav .owl-prev {
+.content-4 .owl-nav .owl-prev {
   opacity: 1;
   transition: all 0.5s;
 }
 
-.our-courses .owl-nav .owl-prev:hover {
+.content-4 .owl-nav .owl-prev:hover {
   opacity: 0.9;
 }
 
-.our-courses .owl-nav .owl-next {
+.content-4 .owl-nav .owl-next {
   opacity: 1;
   transition: all 0.5s;
 }
 
-.our-courses .owl-nav .owl-next:hover {
+.content-4 .owl-nav .owl-next:hover {
   opacity: 0.9;
 }
 
-.our-courses .owl-nav .owl-next {
+.content-4 .owl-nav .owl-next {
   margin-left: 10px;
   outline: none;
   position: absolute;
   right: -85px;
 }
 
-.our-courses .owl-nav .owl-next:before {
+.content-4 .owl-nav .owl-next:before {
   display: inline-block;
   font-family: "FontAwesome";
   color: #1e1e1e;
@@ -906,86 +931,7 @@ section.our-courses .section-heading {
   line-height: 50px;
 }
 
-/*
----------------------------------------------
-our facts
----------------------------------------------
-*/
 
-section.our-facts {
-  background-image: url(../images/1600x810.png);
-  background-position: center center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 140px 0px 125px 0px;
-}
-
-section.our-facts h2 {
-  font-size: 38px;
-  color: #fff;
-  line-height: 50px;
-  font-weight: 700;
-  letter-spacing: 0.5px;
-  margin-bottom: 10px;
-}
-
-section.our-facts p {
-  font-size: 18px;
-  color: #fff;
-  font-weight: 100;
-  
-}
-
-.count-area-content {
-  text-align: center;
-  background-color: rgba(250, 250, 250, 0.664);
-  border-radius: 20px;
-  padding: 25px 30px 35px 30px;
-  margin: 15px 0px;
-}
-
-.percentage .count-digit:after {
-  content: "%";
-  margin-left: 3px;
-}
-
-.count-digit {
-  margin: 5px 0px;
-  color: #f5a425;
-  font-weight: 700;
-  font-size: 36px;
-}
-.count-title a {
-  font-size: 28px;
-  font-weight: 500;
-  color: #000000;
-  letter-spacing: 0.5px;
-}
-
-.count-title a:hover {
-  color: #ff0606;
-  letter-spacing: 1px;
-}
-
-.new-students {
-  margin-top: 45px;
-}
-
-section.our-facts .video {
-  text-align: center;
-  margin-left: 70px;
-  background-image: url(../images/621x497.png);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  border-radius: 20px;
-}
-
-section.our-facts .video img {
-  padding: 170px 0px;
-  max-width: 56px;
-}
 
 /* 
 ---------------------------------------------
@@ -1018,253 +964,18 @@ section.contact-us h2 {
   font-weight: 700;
 }
 
-section.contact-us #contact input {
-  width: 100%;
-  height: 40px;
-  border-radius: 20px;
-  background-color: #f7f7f7;
-  outline: none;
-  border: none;
-  box-shadow: none;
-  font-size: 13px;
-  font-weight: 500;
-  color: #7a7a7a;
-  padding: 0px 15px;
-  margin-bottom: 30px;
-}
-
-section.contact-us #contact textarea {
-  width: 100%;
-  min-height: 140px;
-  max-height: 180px;
-  border-radius: 20px;
-  background-color: #f7f7f7;
-  outline: none;
-  border: none;
-  box-shadow: none;
-  font-size: 13px;
-  font-weight: 500;
-  color: #7a7a7a;
-  padding: 15px;
-  margin-bottom: 30px;
-}
-
-section.contact-us #contact button {
-  font-size: 13px;
-  color: #fff;
-  background-color: #a12c2f;
-  padding: 12px 30px;
-  display: inline-block;
-  border-radius: 22px;
-  font-weight: 500;
-  text-transform: uppercase;
-  transition: all 0.3s;
-  border: none;
-  outline: none;
-}
-
-section.contact-us #contact button:hover {
-  opacity: 0.9;
-}
-
-section.contact-us .right-info {
-  background-color: #a12c2f;
-  border-radius: 20px;
-  padding: 40px;
-}
-
-section.contact-us .right-info ul li {
-  display: inline-block;
-  border-bottom: 1px solid rgba(250, 250, 250, 0.15);
-  margin-bottom: 30px;
-  padding-bottom: 30px;
-}
-
-section.contact-us .right-info ul li:last-child {
-  margin-bottom: 0;
-  padding-bottom: 0;
-  border-bottom: none;
-}
-
-section.contact-us .right-info ul li h6 {
-  color: #fff;
-  font-size: 15px;
-  font-weight: 600;
-  margin-bottom: 10px;
-}
-
-section.contact-us .right-info ul li span {
-  display: block;
-  font-size: 18px;
-  color: #fff;
-  font-weight: 700;
-}
-
 .footer {
   text-align: center;
   margin-top: 140px;
   border-top: 1px solid rgba(250, 250, 250, 0.15);
   padding: 50px 0px;
 }
-.footer p {
-  text-transform: uppercase;
-  font-size: 14px;
-  color: #fff;
-}
-
-.footer p a {
-  color: #f5a425;
-}
-
-/*
----------------------------------------------
-heading page
----------------------------------------------
-*/
-
-section.heading-page {
-  background-image: url(../images/heading-bg.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-top: 230px;
-  padding-bottom: 110px;
-  text-align: center;
-}
-
-section.heading-page h6 {
-  margin-top: 0px;
-  font-size: 15px;
-  text-transform: uppercase;
-  font-weight: 600;
-  color: #fff;
-  letter-spacing: 1px;
-}
-
-section.heading-page h2 {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  font-size: 36px;
-  text-transform: uppercase;
-  font-weight: 800;
-  color: #fff;
-  letter-spacing: 1px;
-}
-
-/*
----------------------------------------------
-upcoming meetings page
----------------------------------------------
-*/
-
-section.meetings-page {
-  background-image: url(../images/meetings-page-bg.jpg);
-  background-position: center center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-top: 140px;
-  padding-bottom: 0px;
-}
-
-section.meetings-page .filters {
-  text-align: center;
-  margin-bottom: 60px;
-}
-
-section.meetings-page .filters li {
-  font-size: 13px;
-  color: #a12c2f;
-  background-color: #fff;
-  padding: 11px 30px;
-  display: inline-block;
-  border-radius: 22px;
-  font-weight: 600;
-  text-transform: uppercase;
-  transition: all 0.3s;
-  cursor: pointer;
-  margin: 0px 3px;
-}
-
-section.meetings-page .filters ul li.active,
-section.meetings-page .filters ul li:hover {
-  background-color: #a12c2f;
-  color: #fff;
-}
-
-section.meetings-page .pagination {
-  text-align: center;
-  width: 100%;
-  margin-top: 30px;
-  display: inline-block;
-}
-
-section.meetings-page .pagination ul li {
-  display: inline-block;
-}
-
-section.meetings-page .pagination ul li a {
-  width: 40px;
-  height: 40px;
-  background-color: #fff;
-  border-radius: 10px;
-  color: #1f272b;
-  display: inline-block;
-  text-align: center;
-  line-height: 40px;
-  font-weight: 600;
-  font-size: 15px;
-  transition: all 0.3s;
-}
-
-section.meetings-page .main-button {
-  text-align: center;
-}
-
-section.meetings-page .main-button a {
-  padding: 12px 60px;
-  text-align: center;
-  margin-top: 30px;
-}
-
-section.meetings-page .pagination ul li.active a,
-section.meetings-page .pagination ul li a:hover {
-  background-color: #a12c2f;
-  color: #fff;
-}
-
 
 .contact-all .down-content {
   background-color: #fff;
   padding: 40px;
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
-}
-
-.contact-all .thumb .date {
-  position: absolute;
-  background-color: rgba(250, 250, 250, 0.9);
-  width: 80px;
-  height: 80px;
-  text-align: center;
-  padding: 15px 0px;
-  border-radius: 10px;
-  right: 20px;
-  top: 20px;
-}
-
-.contact-all .thumb .date h6 {
-  font-size: 13px;
-  text-transform: uppercase;
-  font-weight: 600;
-  color: #a12c2f;
-}
-
-.contact-all .thumb .date span {
-  display: block;
-  color: #1f272b;
-  font-size: 22px;
-  margin-top: 7px;
 }
 
 .contact-all .down-content h4 {
@@ -1288,40 +999,14 @@ section.meetings-page .pagination ul li a:hover {
   font-size: 14px;
 }
 
-.contact-all .down-content p.description {
+/* .contact-all .down-content p.description {
   margin-top: 40px;
   padding-top: 40px;
   border-top: 1px solid #eee;
   margin-bottom: 40px;
   padding-bottom: 40px;
   border-bottom: 1px solid #eee;
-}
-
-.contact-all .down-content .share {
-  margin-top: 40px;
-  padding-top: 40px;
-  border-top: 1px solid #eee;
-}
-
-.contact-all .down-content .share h5 {
-  float: left;
-  margin-right: 10px;
-  margin-bottom: 0px;
-}
-
-.contact-all .down-content .share ul li {
-  display: inline;
-}
-
-.contact-all .down-content .share ul li a {
-  font-size: 14px;
-  color: #1f272b;
-  transition: all 0.3s;
-}
-
-.contact-all .down-content .share ul li a:hover {
-  color: #f5a425;
-}
+} */
 
 /* Meeting item column */
 .templatemo-item-col {
@@ -1353,10 +1038,10 @@ responsive
   .outstanding .owl-nav .owl-prev {
     left: -25px;
   }
-  .our-courses .owl-nav .owl-next {
+  .content-4 .owl-nav .owl-next {
     right: -30px;
   }
-  .our-courses .owl-nav .owl-prev {
+  .content-4 .owl-nav .owl-prev {
     left: -25px;
   }
 }
@@ -1368,10 +1053,10 @@ responsive
   .outstanding .owl-nav .owl-prev {
     left: -65px;
   }
-  .our-courses .owl-nav .owl-next {
+  .content-4 .owl-nav .owl-next {
     right: -70px;
   }
-  .our-courses .owl-nav .owl-prev {
+  .content-4 .owl-nav .owl-prev {
     left: -65px;
   }
 }
@@ -1383,10 +1068,10 @@ responsive
   .outstanding .owl-nav .owl-prev {
     left: -25px;
   }
-  .our-courses .owl-nav .owl-next {
+  .content-4 .owl-nav .owl-next {
     right: -30px;
   }
-  .our-courses .owl-nav .owl-prev {
+  .content-4 .owl-nav .owl-prev {
     left: -25px;
   }
 }
@@ -1398,10 +1083,10 @@ responsive
   .outstanding .owl-nav .owl-prev {
     display: none;
   }
-  .our-courses .owl-nav .owl-next {
+  .content-4 .owl-nav .owl-next {
     display: none;
   }
-  .our-courses .owl-nav .owl-prev {
+  .content-4 .owl-nav .owl-prev {
     display: none;
   }
 }
@@ -1438,11 +1123,7 @@ responsive
     margin-left: 0px;
   }
 
-  .new-students {
-    margin-top: 15px;
-  }
-
-  section.our-facts .video {
+  section.question .video {
     margin-left: 0px;
     margin-top: 15px;
   }
